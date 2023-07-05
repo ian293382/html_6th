@@ -364,6 +364,7 @@ a{
 }
 
 /* close-btn */
+/* close-btn */
 .navbar .close-btn{
 	display: none;
 	width: 48px;
@@ -378,6 +379,22 @@ a{
 
 	}
 }
+.navbar .close-btn span{
+	width: 40px;
+	height: 2px;
+	position: absolute;
+	background-color: #d5a26f;
+	top: 50%;
+	left: 50%;
+}
+
+.navbar .close-btn span:nth-child(1){
+	transform: translate(-50%,-50%) rotate(45deg);
+}
+.navbar .close-btn span:nth-child(2){
+	transform: translate(-50%,-50%) rotate(-45deg);
+}
+
 
 /* .jumbotron */
 .jumbotron{
